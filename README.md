@@ -5,12 +5,10 @@
 > 使用npm安装 
 
 ```
-npm install node-wxpay2
+npm install easy-wxpay
 ```
 
-> [download](https://github.com/ice-penguin/node_alipay_face2face/) from github
->
-> 从github[下载](https://github.com/ice-penguin/node-wxpay)
+> 从github[下载](https://github.com/hranharry/easy-wxpay)
 
 ## Introduce 模块说明 
 
@@ -30,7 +28,7 @@ npm install node-wxpay2
  * @param    {[String]}                 key [私钥文件，调用部分接口需传]
  * @param    {[String]}                 state [客户端模式,normal普通商户，server服务商，默认为普通商户]
  * @param    {[String]}                 appid [微信公众号appid]
- * @param    {[String]}                 appsecret [微信公众号appsecret]
+ * @param    {[String]}                 apisecret [微信支付apisecret]
  * @param    {[String]}                 mch_id [微信商户号]
  */
 var wxpay = require('../index').initClient({
@@ -38,7 +36,7 @@ var wxpay = require('../index').initClient({
 	key:key,//私钥文件
 	state:state,//客户端模式,normal普通商户，server服务商，默认为普通商户
 	appid:appid,//微信公众号appid
-	appsecret:appsecret,//微信公众号appsecret
+	apisecret:apisecret,//微信支付apisecret
 	mch_id:mch_id//微信商户号
 });
 ```

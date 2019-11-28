@@ -1,25 +1,25 @@
 {
-  "name": "node-wxpay2",
-  "version": "1.2.0",
-  "description": "wxpay",
+  "name": "easy-wxpay",
+  "version": "0.0.1",
+  "description": "easy-wxpay",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ice-penguin/node-wxpay.git"
+    "url": "git+https://github.com/hranharry/easy-wxpay.git"
   },
   "keywords": [
     "wxpay",
     "nodejs"
   ],
-  "author": "hjpenguin",
+  "author": "hranharry",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ice-penguin/node-wxpay/issues"
+    "url": "https://github.com/hranharry/easy-wxpay/issues"
   },
-  "homepage": "https://github.com/ice-penguin/node-wxpay#readme",
+  "homepage": "https://github.com/hranharry/easy-wxpay#readme",
   "dependencies": {
     "lodash": "^4.17.15",
     "request": "^2.88.0"
